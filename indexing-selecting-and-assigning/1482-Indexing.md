@@ -4,20 +4,20 @@
 ## What is Indexing in Pandas?
 
 * Indexing in Pandas means selecting particular rows and columns from a DataFrame.
-* Indexing in Pandas is same as we did for a Python List and a NumPy array.
+* Indexing in Pandas is the same as a Python List or a NumPy array.
 * There are two different methods of indexing in Pandas:
-  * **loc - label based selection**
-  * **iloc - index based selection**
+  * **loc - label-based selection**
+  * **iloc - index-based selection**
 
 
 
-## Index Based Selection
+## Index-Based Selection
 
-* Index based selection is to select data based on its numerical position in DataFrame.
+* Index-based selection is to select data based on its numerical position in DataFrame.
 * **iloc** is used for selecting data based on numerical position.
-* The syntax for using **iloc** operator is **`df.iloc[ ]`**, where df is a DataFrame name. You can pass the numerical positions of rows and columns to select in the square bracket.
-* Do you remember the indexing in a NumPy array? If not, don’t worry, you will soon see its implementation on a dataset.
-* Import Pandas Library and load ‘exam_scores.csv’ file
+* The syntax for the **iloc** operator is **`df.iloc[ ]`**, where df is a DataFrame name. You can pass the numerical positions of rows and columns to select in the square bracket.
+* Do you remember the indexing in a NumPy array? If not, don’t worry; you will soon see its implementation on a dataset.
+* Import Pandas Library and load the ‘exam_scores.csv’ file
 
 
 
@@ -71,10 +71,10 @@
 
 
 
-## Label Based Selection
+## Label-Based Selection
 
-* Label based selection selects data based on the column or row names/index. This becomes important while selecting data from a DataFrame.
-* Label based selection is done with loc.
+* Label-based selection selects data based on the column or row names/index. This becomes important while selecting data from a DataFrame.
+* Label-based selection is made with loc.
 * Do you remember the python default indexing of the DataFrame and the indexes/names that you changed in the previous topics?
 * loc and iloc are conceptually similar. The difference is that iloc considers the default indexing while loc ignores the default indexing.
 * **loc** is used for selecting data based on the data index value/name, not the numerical positions.
