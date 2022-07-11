@@ -5,14 +5,14 @@
 
 This dataset contains marks secured by different students in an examination and their background information.
 
-The dataset can be found here:
+You can find the dataset here:
 
 * [https://github.com/dphi-official/Datasets/blob/master/exam_scores.csv](https://github.com/dphi-official/Datasets/blob/master/exam_scores.csv)
 
 
 ## Read The dataset
 
-* So far you have learned how to read a csv file using read_csv() function. Let’s see the practical implementation.
+* You have learned how to read a CSV file using the read_csv() function. Let's see the practical implementation.
 * read_csv() function is of pandas library. So the first task is always to import/load the library we will use.
 
 ![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_961186b0348e4d039253c2c1d82e96be.png)
@@ -26,14 +26,14 @@ The dataset can be found here:
 
 ### shape attribute
 
-* **shape:** It will help you to know what is the shape of your DataFrame, i.e., (number of rows, number of columns).
-* After we have loaded the data we can check the shape of the DataFrame this attribute:
+* **shape:** It will help you to know the shape of your DataFrame, i.e., (number of rows, number of columns).
+* After we have loaded the data, we can check the shape of the DataFrame with this attribute:
 
 
 ![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_73cf0373a3694991b6b3ba2456b79332.png)
 
 
-* So our DataFrame has 1000 rows and 8 columns. From here, we can also say that our DataFrame has 8000 entries.
+* So, our DataFrame has 1000 rows and 8 columns. From here, we can also say that our DataFrame has 8000 entries.
 
 ### head( ) method
 
@@ -48,11 +48,11 @@ The dataset can be found here:
 
 
 
-* **We can see the first five observations of the dataset in the above table.**
+* **We can see the dataset's first five observations in the table above.**
 
 ### tail( ) method
 
-* **tail( ):** This method is similar to head() method but instead of first five it will give you the last five observations from your dataset.
+* **tail( ):** This method is similar to the head() method, but instead of the first five, it will give you the last five observations from your dataset.
 
 
 
@@ -61,11 +61,11 @@ The dataset can be found here:
 
 
 
-* **We can see the last five observations of the dataset in the above table.**
+* **We can see the dataset's last five observations in the table above.**
 
 ### head( ) and tail( )
 
-We can also add the number of rows to be displayed in both head( ) and tail( ). See the examples below:
+We can also add the number of rows displayed in both head( ) and tail( ). See the examples below:
 
 
 
@@ -92,11 +92,11 @@ We can also add the number of rows to be displayed in both head( ) and tail( ). 
 We can observe from this output:
 
 * 'gender', 'race/ethnicity', 'parental level of education', 'lunch' and 'test preparation course' are of data type - object.
-* 'math score', 'reading score' and 'writing score' are of data type - int64 (i.e. integer).
+* 'math score', 'reading score', and 'writing score' are of data type - int64 (i.e. integer).
 
 ### info( )
 
-* **info( ):** This method will return a concise summary about the DataFrame.
+* **info( ):** This method will return a concise summary of the DataFrame.
 
 
 
@@ -119,4 +119,4 @@ We can observe from this output:
 
 
 
-As you can see, info() gives you a lot of different information about the DataFrame, and can be quite useful!
+As you can see, info() gives you a lot of different information about the DataFrame, and can be pretty helpful!
