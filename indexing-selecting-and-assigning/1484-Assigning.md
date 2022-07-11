@@ -1,7 +1,7 @@
 # Assigning
 
-* Assigning a data to a DataFrame is very easy. You can do this using one line of code.
-* Say you want all the entries in Names column to be ‘DPhi’:
+* Assigning data to a DataFrame is very easy. You can do this using one line of code.
+* Say you want all the entries in the Names column to be ‘DPhi’:
 
 
 
