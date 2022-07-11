@@ -2,7 +2,7 @@
 
 ## Attribute (Dot) Based Selection
 
-* We used shape attribute to know the shape of the DataFrame. Do you recall this? If you don’t remember, follow the code below.
+* We used the shape attribute to know the shape of the DataFrame. Do you recall this? If you don't remember, follow the code below.
 
 
 
@@ -22,11 +22,11 @@
 
 
 
-* Similar to that, you can use a particular column name as an attribute to select a column.
+* Similarly, you can use a particular column name as an attribute to select a column.
 
 ## Dictionary (Bracket) Based Selection
 
-* Do you recall getting a value from a dictionary using key? If you don’t remember, follow the code below.
+* Do you recall getting a value from a dictionary using a key? If you don't remember, follow the code below.
 
 
 
@@ -44,11 +44,11 @@
 
 
 
-* Similarly you can use a column name to select a column from a DataFrame: **`df['column_name']`**
+* Similarly, you can use a column name to select a column from a DataFrame: **` df['column_name']`**
 
 ## Selecting Multiple Columns
 
-* While selecting multiple columns we use double square brackets [[]].
+* While selecting multiple columns, we use double square brackets [[]].
 
 
 
@@ -70,7 +70,7 @@
 
 ## Conditional Selection
 
-* Suppose you are interested to get data of ‘Jose’ from the given DataFrame.
+* Suppose you are interested in getting data of 'Jose' from the given DataFrame.
 
 
 
@@ -81,7 +81,7 @@
 
 
 
-* We can make a condition using any conditional operators discussed in ‘Introduction to Python’ course. Let’s say we want the record where ‘Name’ is ‘Jose’. We can make condition here using **`==`** conditional operator.
+* We can make a condition using any conditional operators discussed in the 'Introduction to Python' course. Let's say we want the record where the 'Name' is 'Jose'. We can use a condition here using the **`==`** conditional operator.
 
 * This will return a series of True/False values:
 
@@ -93,7 +93,7 @@
 
 
 
-* Get all the columns of the row that satisfies the condition. Here the condition is to get the rows where Name is ‘Jose’
+* Get all the columns of the row that satisfies the condition. Here the condition is to get the rows where the Name is 'Jose'.
 
 
 
