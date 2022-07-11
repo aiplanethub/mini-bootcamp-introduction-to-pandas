@@ -7,8 +7,8 @@
 
 ## Reading Data Files
 
-* It is always good to be able to create a DataFrame by hand. But, generally, we don’t create our own data by hand. We work on the data that already exists.
-* Data exists in a number of formats. The most basic of these is the CSV file. **CSV stands for comma-separated-values**.
+* It is always good to be able to create a DataFrame by hand. But, generally, we don't make our data by hand. We work on the data that already exists.
+* Data exists in many formats. The most basic of these is the CSV file. **CSV stands for comma-separated-values**.
 
 
 ## **What is a CSV file?**
@@ -30,8 +30,8 @@
 
 
 
-* CSV files are normally created by programs that handle large amounts of data. They are a convenient way to export data from spreadsheets and databases, as well as import or use it in other programs.
-* CSV is a simple file format used to store tabular data, such as a spreadsheet or database.
+* CSV files are usually created by programs that handle large amounts of data. They are a convenient way to export data from spreadsheets and databases and import or use them in other programs.
+* CSV is a simple file format that stores tabular data, such as a spreadsheet or database.
 * A CSV file stores tabular data (numbers and text) in plain text.
 * Each line of the file is a data record/row.
 * Each record consists of one or more fields, separated by commas.
@@ -62,9 +62,9 @@
 
 ## Working with CSV files in Python
 
-* For working with CSV files in python, there is an inbuilt module named csv.
+* For working with CSV files in Python, there is an inbuilt module named csv.
 * However, a common method for working with CSV files is using Pandas. It makes importing and analyzing data much easier.
-* One crucial feature of Pandas is its ability to write and read Excel, CSV, and many other common types of files.
+* One crucial feature of Pandas is its ability to write and read Excel, CSV, and many other types of files.
 
 
 
@@ -73,8 +73,8 @@
 
 * Functions like the Pandas read_csv() method enable you to work with files effectively.
 * The read_csv() function reads the CSV file into a DataFrame object.
-* A CSV file is similar to a two-dimensional table and the DataFrame object represents two dimensional tabular view.
-* The most basic way to read a csv file in Pandas:
+* A CSV file is similar to a two-dimensional table, and the DataFrame object represents a two-dimensional tabular view.
+* The most basic way to read a CSV file in Pandas:
 
 
 
@@ -83,7 +83,7 @@
 
 
 
-* Now, let's understand how to provide filename:
+* Now, let's understand how to provide the filename:
 
 
 
@@ -94,8 +94,8 @@
 
 
 
-* There are many other things one can do through this one function itself, to change the returned object completely.
-* For instance, one can read a csv file not only locally, but from a URL through read_csv or one can choose what columns need to be imported so that we don’t have to edit the array later.
+* One can do many other things through read_csv to change the returned object completely.
+* For instance, one can read not just a local CSV file but even one from a URL, or choose what columns need to be imported so that we don't have to edit the array later.
 * These modifications can be done by the various arguments it takes.
 
 ### Pandas to_csv with example
@@ -110,7 +110,7 @@
 
 
 
-* **If you want to export without the index, simply add index=False**:
+* **If you want to export without the index, add index=False**:
 
 ![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_c2d4878eb34d465f98240d3894801922.png)
 
