@@ -2,7 +2,7 @@
 
 
 
-* We saw the use of **describe()** method on a DataFrame or a series which returned some information (i.e. the summary) about the data.
+* We saw the use of the **describe()** method on a DataFrame or a series that returned some information (i.e., the summary) about the data.
 * We can also use the individual methods like **mean(), median(), unique()** to get this information on a DataFrame or a series.
 * Examples are shown below:
 
@@ -18,9 +18,9 @@
 
 
 
-* To see all the unique values and the number of times they are occurring in the dataset, we have a method called value_counts():
+* To see all the unique values and the number of times they occur in the dataset, we have a method called value_counts():
 
 
 ![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_c40daa0935f646fda57887659160ff5c.png)
 
-* 'female' is occurring 502 times in gender column which we saw in the table returned using describe() method as well.
+* 'female' occurs 502 times in the gender column. We also saw this in the table returned using the describe () method.
