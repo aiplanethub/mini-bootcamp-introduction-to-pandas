@@ -2,12 +2,12 @@
 
 ## Learning Objectives
 
-* What is Series?
+* What is a Series?
 * Create a Series
 
 ## Pandas Objects
 
-Before we dive into series, let’s do a quick recap of pandas ‘objects’. At the core of the pandas library, there are two fundamental data structures/objects:
+Before we dive into Series, let’s do a quick recap of pandas ‘objects’. At the core of the Pandas library, there are two fundamental data structures/objects:
 
 * Series
 * Data Frames
@@ -53,8 +53,8 @@ Before we dive into series, let’s do a quick recap of pandas ‘objects’. At
 
 
 
-* Series is like a list in Python which can take any type of value like integers, strings, floats (or decimal values), etc.
-* All the items in series are labeled with indexes:
+* Series is like a list in Python that can take any type of value like integers, strings, floats (or decimal values), etc.
+* All the items in the Series are labeled with indexes:
 
 
 
@@ -64,11 +64,11 @@ Before we dive into series, let’s do a quick recap of pandas ‘objects’. At
 
 
 
-* **By default indexing starts from 0 in Series.** 
+* **By default, indexing starts from 0 in Series.** 
 
-## **Human vs Python Index**
+## **Human vs. Python Index**
 
-* Indexes that we (Human) understand:
+* Indexes that we (humans) understand:
 
 
 ![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_7f29921bb6fe4d89805e73bde9c929ba.png)
@@ -90,7 +90,7 @@ Before we dive into series, let’s do a quick recap of pandas ‘objects’. At
 
   **`import pandas as pd`**
 
-* You can create your own Series using a Python list:
+* You can create your Series using a Python list:
 
 
 
@@ -102,6 +102,6 @@ Before we dive into series, let’s do a quick recap of pandas ‘objects’. At
 
 
 
-* You can also create your own Series using a dictionary:
+* You can also create your Series using a dictionary:
 
 ![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_937099e6513a4788ae90cbaf8c6bb80d.png)
