@@ -2,15 +2,15 @@
 
 * Renaming means changing the name.
 
-* Most of the time we get dataset where column names are not satisfactory.
+* Most of the time, we get a dataset with unsatisfactory column names.
 
-* For example in this dataset, 'math score', 'reading score' and 'writing score' contain spaces in their names due to which we are not able to use attribute (dot) selection style method to select a particular column. 
+* For example, in this dataset, 'math score', 'reading score', and 'writing score' contain spaces in their names, due to which we cannot use the attribute (dot) selection method to select a particular column. 
 
-* And not only this if the column names were 'ms' for math score, 'rs' for reading score and 'ws' for writing score, these are not informative column names. This is the need for renaming columns.
+* And not only this, if the column names were 'ms' for math score, 'rs' for reading score, and 'ws' for writing score, these are not informative column names. This is the need for renaming columns.
 
 * Pandas provides a function ‘rename()’ to rename column/indexes in a DataFrame.
 
-* Let's rename all the column names in our DataFrame which contain spaces in them. Also we will rename the column 'race/ethnicity' to 'race'.
+* Let's rename all the column names in our DataFrame containing spaces. Also, we will rename the column 'race/ethnicity' to 'race'.
 
 
 
@@ -43,7 +43,7 @@
 
 
 
-* We can also rename the indexes of the DataFrame using the rename() function as shown in the image below:
+* We can also rename the indexes of the DataFrame using the rename() function, as shown in the image below:
 
 ![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_55b82c3ed59e49438c8767bd019afe5b.png)
 
