@@ -3,8 +3,8 @@
 ## What is a Missing Value?
 
 * If in any row or column in a DataFrame, a value is not available, it is said to be a missing value.
-* So, defining missing data: **Missing data (or missing values) is defined as the data values that are not stored in a column or row.**
-* Consider this small dataset which has some missing values in it (shown in the red box).
+* Defining missing data: **Missing data (or missing values) is the data values that are not stored in a column or row.**
+* Consider this small dataset with some missing values (shown in the red box).
 
 
 
@@ -17,8 +17,9 @@
 
 
 
+## Finding Missing Values
 
-* Well this is a small dataset so we can easily observe the missing values here. But real-world data is very large in size and you cannot easily see the missing values in the DataFrame.
+* This is a small dataset, so we can easily observe the missing values here. But real-world data is huge, and you cannot easily see the missing values in the DataFrame.
 * Pandas provides **isnull(), isna()** functions to detect missing values. Both of them do the same thing.
 
 * **df.isna()** or **df.isnull()** returns the DataFrame with Boolean values indicating whether a value is missing (True) or not (False).
@@ -34,18 +35,20 @@
 
 
 
-* We can get column wise count of all the missing values using the aggregation function **sum()**:
+* We can get the column-wise count of all the missing values using the aggregation function **sum()**:
 
 
 ![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_9b65636cf67744b5bf1d58e5135e2b67.png)
 
 
 
-* Both the columns 'Names' and 'Marks%' have one missing value each. 'Regd. No' has no missing values so the value is 0.
+* Both the columns 'Names' and 'Marks%' have one missing value each. 'Regd. No' has no missing values, so the value is 0.
 
-* Pandas also provides **fillna()** method to fill the missing values. fillna() provides many different strategies to fill missing values.
+## Dealing with Missing Values
 
-* Let's say we want to fill the missing values in 'Names' column with 'unknown'.
+* Pandas also provides the **fillna()** method to fill the missing values. fillna() offers many different strategies to fill missing values.
+
+* Let's say we want to fill the missing values in the 'Names' column with 'unknown'.
 
 
 
@@ -75,7 +78,7 @@
 
 
 
-* We can pass 'inplace' parameter as True in fillna() method. It will make the changes in the original DataFrame.
+* We can pass the 'inplace' parameter as True in the fillna() method. It will make the changes in the original DataFrame.
 
 
 
@@ -87,7 +90,7 @@
 
 
 
-* There is still a missing value in 'Marks%' column. Let's say we want to fill the missing value in this column with the mean of the marks scored by other people.
+* There is still a missing value in the 'Marks%' column. Let's say we want to fill the missing value in this column with the mean of the marks scored by other people.
 
 
 
@@ -95,5 +98,3 @@
 
 
 * Now, our DataFrame has no missing values.
-
-The quiz on the next page uses the following dataset: [Titanic Dataset](https://github.com/dphi-official/Datasets/blob/master/titanic_data.csv)
