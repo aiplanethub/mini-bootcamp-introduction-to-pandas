@@ -1,16 +1,16 @@
 # Sorting
 
-* Assume you are a teacher and you have scores of your students in the dataset ‘exam_scores’ (say). You want to get the information about all the students whose performance is very bad in ‘math’.
+* Assume you are a teacher and you have scores of your students in the dataset 'exam_scores' (say). You want to get the information about all the students whose performance is very bad in 'math'.
 
-* What about going through all the records in the dataset and finding out manually the students whose score in math is very bad?
+* What about going through all the records in the dataset and manually finding out the students whose math score is very bad?
 
-* You can think of doing this manual task if you have 10 or 20 records. But here you have 1000 records. You need to figure out some easy way to do this. This is where the importance of sorting comes in.
+* You can think of doing this manual task if you have 10 or 20 records. But here, you have 1000 records. You need to figure out some easy way to do this. This is where the importance of sorting comes in.
 
-* The data present in the DataFrame ‘exam_scores’ is in the default index order not in a value order.
+* The data in the DataFrame' exam_scores' is in the default index order, not a value-based order.
 
 * Pandas provides a method called sort_values() which returns the sorted result in value order.
 
-* Let's say we want to get the student's information which are in increasing order of math scores.
+* Let's say we want to get the student's information which is in increasing order of math scores.
 
 
 
@@ -21,7 +21,7 @@
 
 
 
-* By default the sorting happens in an ascending order:
+* By default, the sorting happens in ascending order:
 
 
 
@@ -33,7 +33,7 @@
 
 
 
-* We can get the sorted result in descending (decreasing) order by passing the parameter ‘ascending’ as False in the sort_values() method:
+* We can get the sorted result in descending (decreasing) order by passing the parameter 'ascending' as False in the sort_values() method:
 
 
 
