@@ -85,8 +85,8 @@ A data frame looks like a table, as shown in the image here:
 ## A Column is a Series
 
 * A DataFrame is a collection of Series.
-* A series is a column in a table or a DataFrame.
+* A Series is a column in a table or a DataFrame.
 
 ![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_c26c3dfa04f1419d83d73bbb22a8a446.png)
 
-* There are three series in the given DataFrame - ‘Regd. No’, ‘Names’ and ‘Marks%’.
+* There are three Series in the given DataFrame - ‘Regd. No’, ‘Names’ and ‘Marks%’.
