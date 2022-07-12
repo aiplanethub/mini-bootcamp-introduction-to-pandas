@@ -39,7 +39,7 @@
 
 
 
-## How does CSV look like?
+## What does a CSV file look like?
 
 
 
