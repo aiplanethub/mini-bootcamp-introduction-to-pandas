@@ -79,7 +79,6 @@
 * loc and iloc are conceptually similar. The difference is that iloc considers the default indexing while loc ignores the default indexing.
 * **loc** is used for selecting data based on the data index value/name, not the numerical positions.
 * The syntax for loc is similar to iloc: **`df.loc[ ]`**, df is the DataFrame name.
-* We will learn about its implementation on a dataset soon.
 
 ### Selecting data using loc:
 
