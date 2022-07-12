@@ -11,7 +11,7 @@
 * Data exists in many formats. The most basic of these is the CSV file. **CSV stands for comma-separated-values**.
 
 
-## **What is a CSV file?**
+## What is a CSV file?
 
 
 
