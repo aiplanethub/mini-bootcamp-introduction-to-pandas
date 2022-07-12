@@ -116,4 +116,6 @@
 
 * **Example:**
 
-![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_35a79b4cb9284d7bab939c655c8bb735.png)
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_75be7123fc7e427d824eecf456830695.png)
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_c540acd080ce418f9a6d7b98a2aa6f1e.png)
